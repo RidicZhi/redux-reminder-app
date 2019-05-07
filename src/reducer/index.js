@@ -1,8 +1,11 @@
 import  { ADD_REMINDER }  from '../constants';
 
 const getReminderData = (action) => {
+  const { text, dueDate } = action;
+
   return {
-    text: action.text,
+    text,
+    dueDate,
     id: Math.random()
   }
 }

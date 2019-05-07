@@ -23,6 +23,7 @@ npm start
 * Bootstrap4
 * Redux
 * Middleware(redux-logger, redux-devtools)
+* Js Date Processing(moment)
 * Cookie
 * JavaScript ES6
 * Deployed on [Github Page]()
