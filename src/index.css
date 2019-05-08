@@ -10,3 +10,16 @@
   font-weight: 600;
   padding-bottom: 1rem;
 }
+
+.list-item {
+  display: inline-block;
+}
+
+.delete-button {
+  float: right;
+  cursor: pointer;
+}
+
+.btn-block {
+  max-width: 66.6%;
+}
