@@ -29,6 +29,7 @@ npm start
 * Deployed on [Github Page](https://ridiczhi.github.io/redux-reminder-app)
 
 ## Function
-Create/Delete reminders and stage it to both redux store and browser cookie.
-Calculate the time from now of the event by [moment](https://momentjs.com/).
-When refresh the page, redux store will read Reminders from cookie.
+Create/Delete reminders and stage it to both redux store and browser cookie.  
+Calculate the time from now of the event by [moment](https://momentjs.com/).  
+When refresh the page, redux store will read Reminders from cookie.  
+
