@@ -23,14 +23,15 @@ npm start
 * React / Create React App
 * Bootstrap4
 * Redux
-* Middleware(redux-logger, redux-devtools)/ConfigStore(provides different middleware for prod/dev version)
-* Js Date Processing(moment)
-* Cookie
+* Middleware / ConfigureStore
+* Date Processing
+* Cookie Processing
 * JavaScript ES6
 * Deployed on [Github Page](https://ridiczhi.github.io/redux-reminder-app)
 
 ## Function
 Create/Delete reminders and stage it to both redux store and browser cookie.  
 Calculate the time from now of the event by [moment](https://momentjs.com/).  
-When refresh the page, redux store will read Reminders from cookie.  
+When refresh the page, redux store will read Reminders from cookie by [sfcookies](https://www.npmjs.com/package/sfcookies).  
+ConfigureStore enable us to observe the state changing in ***Development*** mode via [redux-logger](https://github.com/LogRocket/redux-logger) and [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension) and does not provide middleware to ***Production*** mode.
 
