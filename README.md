@@ -6,6 +6,7 @@ This is a simple reminder app for react-redux beginner.
 ## ScreenShot
 ![Image text](https://raw.githubusercontent.com/RidicZhi/redux-reminder-app/master/Screen%20Shot%202019-05-08%20at%2010.01.57%20pm.png)
 ![Image text](https://raw.githubusercontent.com/RidicZhi/redux-reminder-app/master/Screen%20Shot%202019-05-08%20at%2010.02.49%20pm.png)
+![Image text](https://raw.githubusercontent.com/RidicZhi/redux-reminder-app/master/Screen%20Shot%202019-05-08%20at%2010.10.16%20pm.png)
 
 ## How To Run
 
