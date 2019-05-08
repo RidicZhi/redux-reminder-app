@@ -1,11 +1,8 @@
 
-
 # Introduction
 
 This is a simple reminder app for react-redux beginner.
 
-## ScreenShot
-![Image text]()
 
 ## How To Run
 
@@ -26,7 +23,9 @@ npm start
 * Js Date Processing(moment)
 * Cookie
 * JavaScript ES6
-* Deployed on [Github Page]()
+* Deployed on [Github Page](https://ridiczhi.github.io/redux-reminder-app)
 
 ## Function
-
+Create/Delete reminders and stage it to both redux store and browser cookie.
+Calculate the time from now of the event by [moment](https://momentjs.com/).
+When refresh the page, redux store will read Reminders from cookie.
