@@ -10,7 +10,7 @@ class App extends Component {
 
     this.state = {
       text: "",
-      dueTime: ""
+      dueTime: moment(new Date()).format('YYYY-MM-DDTHH:mm')
     };
   }
 
@@ -22,7 +22,7 @@ class App extends Component {
     this.props.addReminder(this.state.text, this.state.dueTime);
     this.setState({
       text: "",
-      dueTime: ""
+      dueTime: moment(new Date()).format('YYYY-MM-DDTHH:mm')
     });
   }
 
@@ -62,7 +62,7 @@ class App extends Component {
             <input
               type="datetime-local"
               className="form-control mr-3"
-              value={moment(new Date()).format('YYYY-MM-DDTHH:mm')}
+              value={this.state.dueTime}
               onChange={e => {
                 this.setState({ dueTime: e.target.value });
               }}
