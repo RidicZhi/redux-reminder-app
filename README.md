@@ -12,7 +12,7 @@ This is a simple reminder app for react-redux beginner.
 
 ```
 git clone https://github.com/RidicZhi/redux-reminder-app.git
-cd react-accounts-app
+cd redux-reminder-app
 npm install
 npm start
 ```
