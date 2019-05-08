@@ -22,7 +22,7 @@ npm start
 * React / Create React App
 * Bootstrap4
 * Redux
-* Middleware(redux-logger, redux-devtools)
+* Middleware(redux-logger, redux-devtools)/ConfigStore(provides different middleware for prod/dev version)
 * Js Date Processing(moment)
 * Cookie
 * JavaScript ES6

@@ -59,7 +59,6 @@ class App extends Component {
   }
 
   renderClearButton() {
-    console.log(this.props.reminders)
     if(this.props.reminders.length === 0) {
       return
     }
