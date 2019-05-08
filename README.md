@@ -29,8 +29,8 @@ npm start
 * Deployed on [Github Page](https://ridiczhi.github.io/redux-reminder-app)
 
 ## Function
-Create/Delete reminders and stage it to both redux store and browser cookie.  
+Create/Delete reminders and stage them to both redux store and browser cookie.  
 Calculate the time from now of the event by [moment](https://momentjs.com/).  
-When refresh the page, redux store will read Reminders from cookie by [sfcookies](https://www.npmjs.com/package/sfcookies).  
-ConfigureStore enable us to observe the state changing in ***Development*** mode via [redux-logger](https://github.com/LogRocket/redux-logger) and [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension) and does not provide middleware to ***Production*** mode.
+When refresh the page, redux store will read reminders from cookie by [sfcookies](https://www.npmjs.com/package/sfcookies).  
+ConfigureStore enable us to observe the state changing in ***Development*** mode via [redux-logger](https://github.com/LogRocket/redux-logger) and [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension) and does not provide any middleware to ***Production*** mode.
 
