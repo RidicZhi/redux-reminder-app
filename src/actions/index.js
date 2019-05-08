@@ -1,8 +1,4 @@
-import {
-  ADD_REMINDER,
-  DELETE_REMINDER,
-  CLEAR_ALL_REMINDERS
-} from "../constants";
+import { ADD_REMINDER, DELETE_REMINDER, CLEAR_ALL_REMINDERS } from "../constants";
 
 export const addReminder = (text, dueDate) => {
   return {
