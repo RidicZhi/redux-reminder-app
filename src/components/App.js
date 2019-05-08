@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { addReminder, deleteReminder ,clearAllReminders } from "../actions";
+import { addReminder, deleteReminder, clearAllReminders } from "../actions";
 import PropTypes from "prop-types";
-import moment from 'moment';
+import moment from "moment";
 
 class App extends Component {
   constructor(props) {
@@ -10,19 +10,19 @@ class App extends Component {
 
     this.state = {
       text: "",
-      dueTime: moment(new Date()).format('YYYY-MM-DDTHH:mm')
+      dueTime: moment(new Date()).format("YYYY-MM-DDTHH:mm")
     };
   }
 
   onAddClick() {
-    if(!this.state.text) {
-      alert('Please enter before adding');
-      return
+    if (!this.state.text) {
+      alert("Please enter before adding");
+      return;
     }
     this.props.addReminder(this.state.text, this.state.dueTime);
     this.setState({
       text: "",
-      dueTime: moment(new Date()).format('YYYY-MM-DDTHH:mm')
+      dueTime: moment(new Date()).format("YYYY-MM-DDTHH:mm")
     });
   }
 
@@ -46,9 +46,9 @@ class App extends Component {
                 <em>{moment(new Date(reminder.dueDate)).fromNow()}</em>
               </div>
             </div>
-            <div 
+            <div
               className="list-item delete-button text-danger"
-              onClick = {() => this.onDeleteClick(reminder.id)}
+              onClick={() => this.onDeleteClick(reminder.id)}
             >
               &#x2715;
             </div>
@@ -59,10 +59,17 @@ class App extends Component {
   }
 
   renderClearButton() {
-    if(this.props.reminders.length === 0) {
-      return
+    if (this.props.reminders.length === 0) {
+      return;
     }
-    return <div className="btn btn-danger btn-block mt-4" onClick={() => this.onClearAll()}>Clear All</div>
+    return (
+      <div
+        className="btn btn-danger btn-block mt-4"
+        onClick={() => this.onClearAll()}
+      >
+        Clear All
+      </div>
+    );
   }
 
   render() {
