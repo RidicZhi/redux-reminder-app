@@ -3,6 +3,9 @@
 
 This is a simple reminder app for react-redux beginner.
 
+## ScreenShot
+![Image text]()
+![Image text]()
 
 ## How To Run
 
