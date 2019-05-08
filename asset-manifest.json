@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/redux-reminder-app/static/css/main.62d34d94.chunk.css",
-    "main.js": "/redux-reminder-app/static/js/main.935057ec.chunk.js",
-    "main.js.map": "/redux-reminder-app/static/js/main.935057ec.chunk.js.map",
+    "main.js": "/redux-reminder-app/static/js/main.775bdda0.chunk.js",
+    "main.js.map": "/redux-reminder-app/static/js/main.775bdda0.chunk.js.map",
     "runtime~main.js": "/redux-reminder-app/static/js/runtime~main.1aba8d05.js",
     "runtime~main.js.map": "/redux-reminder-app/static/js/runtime~main.1aba8d05.js.map",
-    "static/js/2.f5110606.chunk.js": "/redux-reminder-app/static/js/2.f5110606.chunk.js",
-    "static/js/2.f5110606.chunk.js.map": "/redux-reminder-app/static/js/2.f5110606.chunk.js.map",
+    "static/js/2.870a62cd.chunk.js": "/redux-reminder-app/static/js/2.870a62cd.chunk.js",
+    "static/js/2.870a62cd.chunk.js.map": "/redux-reminder-app/static/js/2.870a62cd.chunk.js.map",
     "index.html": "/redux-reminder-app/index.html",
-    "precache-manifest.5409ceb127a62d682881e9035da089d9.js": "/redux-reminder-app/precache-manifest.5409ceb127a62d682881e9035da089d9.js",
+    "precache-manifest.9f9b5cdee11368d364ab7f30c2a352c1.js": "/redux-reminder-app/precache-manifest.9f9b5cdee11368d364ab7f30c2a352c1.js",
     "service-worker.js": "/redux-reminder-app/service-worker.js",
     "static/css/main.62d34d94.chunk.css.map": "/redux-reminder-app/static/css/main.62d34d94.chunk.css.map"
   }
